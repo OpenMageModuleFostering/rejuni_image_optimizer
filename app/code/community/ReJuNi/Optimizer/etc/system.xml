@@ -45,7 +45,7 @@
 						</rejuni_optimizer_enabled>
 						<rejuni_optimizer_apikey translate="label">
 							<label>Api Key: </label>
-							<comment>get your API key at api.rejuni.nl</comment>
+							<comment>get your API key at cms.rejuni.nl</comment>
 							<frontend_type>text</frontend_type>
 							<sort_order>30</sort_order>
 							<show_in_default>1</show_in_default>

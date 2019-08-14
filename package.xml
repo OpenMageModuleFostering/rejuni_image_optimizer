@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>rejuni_image_optimizer</name>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <stability>stable</stability>
     <license>GNU General Public License (GPL)</license>
     <channel>community</channel>
     <extends/>
     <summary>Compresses images so that they will use less data.</summary>
     <description>Save data on your server, lower your webshop load time, improve SEO! All by optimizing your images.</description>
-    <notes>First public release</notes>
+    <notes>Extension now works correctly in magento administration panel</notes>
     <authors><author><name>Remco</name><user>rejuni</user><email>info@rejuni.nl</email></author></authors>
-    <date>2015-08-29</date>
-    <time>09:49:58</time>
-    <contents><target name="magecommunity"><dir name="ReJuNi"><dir name="Core"><dir name="Helper"><file name="Data.php" hash="c25de8cec52f28c75d483ddd8821751f"/></dir><dir name="etc"><file name="config.xml" hash="2694f9abec22840cdf6f1ae65d711994"/><file name="system.xml" hash="d70d2c33dbc265135920ba2319a88c4b"/></dir></dir><dir name="Optimizer"><dir name="Helper"><file name="Data.php" hash="df0125a410ed57094a8b5163ea3b12bd"/></dir><dir name="Model"><file name="Observer.php" hash="eb6453a73036fb443c2e175c42c824f5"/><dir name="Product"><file name="Image.php" hash="2d2c2e95963cd812e9df3135753e1076"/></dir><file name="knowledge.txt" hash="78de2ec1d12ec6747c37fc1684679b52"/></dir><dir name="etc"><file name="config.xml" hash="481060763486b5403e737625852c66fe"/><file name="system.xml" hash="8438cdf840fb286f84ad7ff4ff402761"/></dir><dir name="sql"><dir name="optimizer_setup"><file name="install-1.0.0.php" hash="70b2d072336a89c5b528d7cc7f7748c7"/></dir></dir></dir></dir></target></contents>
+    <date>2015-11-28</date>
+    <time>09:32:11</time>
+    <contents><target name="magecommunity"><dir name="ReJuNi"><dir name="Core"><dir name="Helper"><file name="Data.php" hash="c25de8cec52f28c75d483ddd8821751f"/></dir><dir name="etc"><file name="config.xml" hash="2694f9abec22840cdf6f1ae65d711994"/><file name="system.xml" hash="d70d2c33dbc265135920ba2319a88c4b"/></dir></dir><dir name="Optimizer"><dir name="Helper"><file name="Data.php" hash="df0125a410ed57094a8b5163ea3b12bd"/></dir><dir name="Model"><file name="Observer.php" hash="eb6453a73036fb443c2e175c42c824f5"/><dir name="Product"><file name="Image.php" hash="2d2c2e95963cd812e9df3135753e1076"/></dir></dir><dir name="etc"><file name="config.xml" hash="481060763486b5403e737625852c66fe"/><file name="system.xml" hash="ea6f6771a076351b12763213ed24fcf3"/></dir><dir name="sql"><dir name="optimizer_setup"><file name="install-1.0.0.php" hash="70b2d072336a89c5b528d7cc7f7748c7"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ReJuNi_Core.xml" hash="ddaae448a38eaf4ab25ae68443aa3c86"/><file name="ReJuNi_Optimizer.xml" hash="164a50cab082cb4114cf56a666b4b186"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
 </package>
