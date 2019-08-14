@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/rejuni_image_optimizer",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Compresses images so that they will use less data.",
+    "authors": [
+    {
+        "name": "Remco",
+        "email": "info@rejuni.nl"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

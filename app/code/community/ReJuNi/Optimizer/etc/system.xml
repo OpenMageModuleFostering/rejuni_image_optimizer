@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<sections>
+		<rejuni>
+			<groups>
+				<rejuni_group translate="label" module="rejuni">
+					<fields>
+						<rejuni_optimizer_version translate="label">
+							<label>Optimizer Version: </label>
+							<frontend_type>label</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</rejuni_optimizer_version>
+					</fields>
+				</rejuni_group>
+			</groups>
+		</rejuni>
+        <rejuni_optimizer>
+            <label>Optimizer</label>
+			<tab>rejuni</tab>
+			<sort_order>20</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+                <rejuni_optimizer_group translate="label" module="rejuni_optimizer">
+					<label>Rejuni Optimizer Options</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>20</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<rejuni_optimizer_enabled translate="label">
+							<label>Enabled: </label>
+							<comment>Enables/Disables the optimizer</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</rejuni_optimizer_enabled>
+						<rejuni_optimizer_apikey translate="label">
+							<label>Api Key: </label>
+							<comment>get your API key at api.rejuni.nl</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</rejuni_optimizer_apikey>
+						<rejuni_optimizer_apiuri translate="label">
+							<label>Api URI: </label>
+							<comment>Default API URI http://api.rejuni.nl/1.0/optimize do not alter this URI unless requested by us.</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</rejuni_optimizer_apiuri>
+					</fields>
+				</rejuni_optimizer_group>
+            </groups>
+		</rejuni_optimizer>
+    </sections>
+</config>

@@ -1,0 +1,4 @@
+catalog_product_gallery_upload_image_after
+
+http://magento.stackexchange.com/questions/52497/is-it-possible-to-hook-into-the-image-upload-function-on-the-wysiwyg-editor
+https://www.nicksays.co.uk/magento-events-cheat-sheet-1-7/

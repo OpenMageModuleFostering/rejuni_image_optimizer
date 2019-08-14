@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ReJuNi_Core>
+            <version>0.1.0</version>
+        </ReJuNi_Core>
+    </modules>
+    <global>
+        <models>         
+				<rejuni>
+                <class>ReJuNi_Core_Model</class>
+            </rejuni>
+        </models>
+        <helpers>      
+				<rejuni>
+                <class>ReJuNi_Core_Helper</class>
+            </rejuni>
+        </helpers>
+    </global>
+    <default>
+        <rejuni>
+            <rejuni_group>
+                <rejuni_version>0.1.0</rejuni_version>
+            </rejuni_group>
+        </rejuni>
+    </default>
+	 <adminhtml>
+		 <acl>
+			  <resources>
+					<all>
+						 <title>Allow Everything</title>
+					</all>
+					<admin>
+						 <children>
+							  <system>
+									<children>
+										 <config>
+											  <children>
+													<rejuni>
+														 <title>ReJuNi - All</title>
+													</rejuni>
+											  </children>
+										 </config>
+									</children>
+							  </system>
+						 </children>
+					</admin>
+			  </resources>
+		 </acl>
+	</adminhtml>
+</config>
