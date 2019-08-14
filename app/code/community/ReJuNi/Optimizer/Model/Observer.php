@@ -1,7 +1,7 @@
 <?php
 class ReJuNi_Optimizer_Model_Observer{
 	public function optimizeFilesize(Varien_Event_Observer $observer){
-		$enableStatus = Mage::getConfig()->getNode('default/rejuni/rejuni_optimizer_group/rejuni_optimizer_enabled');
+		$enableStatus = Mage::getConfig()->getNode('default/rejuni_optimizer/rejuni_optimizer_group/rejuni_optimizer_enabled');
 		if($enableStatus > 0)
 		{
 			$event = $observer->getEvent();
@@ -16,8 +16,8 @@ class ReJuNi_Optimizer_Model_Observer{
 	}
 	
 	private function doApiCall($image) {
-		$target_url = Mage::getConfig()->getNode('default/rejuni/rejuni_optimizer_group/rejuni_optimizer_apiuri');
-		$apikey = Mage::getConfig()->getNode('default/rejuni/rejuni_optimizer_group/rejuni_optimizer_apikey');
+		$target_url = Mage::getConfig()->getNode('default/rejuni_optimizer/rejuni_optimizer_group/rejuni_optimizer_apiuri');
+		$apikey = Mage::getConfig()->getNode('default/rejuni_optimizer/rejuni_optimizer_group/rejuni_optimizer_apikey');
 		
 		if(empty($target_url)) { 
             Mage::log("target uri not set", null, 'rejuni.log');
